@@ -5,6 +5,20 @@
 
 ---
 
+## Additional Files
+
+### .env
+This file contains the `PES_AUTHOR` environment variable required by the assignment:
+```
+PES_AUTHOR="Arun Hariharan <PES2UG24AM126>"
+```
+
+**Purpose:** The README specifies that PES-VCS reads the author name from the `PES_AUTHOR` environment variable. This file provides a convenient way to set this variable before running commands.
+
+**Usage:** Run `source .env` before executing any `pes` commands to ensure commits are attributed correctly.
+
+---
+
 ## Phase 1: Object Storage Foundation
 
 ### Implementation Summary
